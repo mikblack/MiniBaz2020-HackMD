@@ -125,7 +125,6 @@ https://hackmd.io/pricing#
 ### Signing up for HackMD
 
 Signin via:
-
  - create account on HackMD
  - GitHub 
  - Dropbox 
@@ -133,4 +132,15 @@ Signin via:
  - Twitter
  - Google
 
+### Tutorial
+
+HackMD has a fairly extenseive tutorial/help page:
+
+https://hackmd.io/c/tutorials/
+
+Not a set-by-step guide though.
+
+### Let's have a play...
+
+I'll create a public document, and post the link, and then you can all start editing it. :smile:
 
