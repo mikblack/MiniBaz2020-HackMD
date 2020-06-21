@@ -40,8 +40,8 @@ https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html
 Examples:
 
  - `github_document`
-    - R markdown file: [github_doc.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_doc.Rmd)
-    - Output (on GitHub): [github_doc.md](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_doc.md)
+    - R markdown file: [github_doc_format.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_doc_format.Rmd)
+    - Output (on GitHub): [github_doc_format.md](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_doc_format.md)
  - `html_document` (same as default)
      - R markdown file: [github_html.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_html.Rmd)
      - Output (on GitHub): [github_html.html](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_html.html)
