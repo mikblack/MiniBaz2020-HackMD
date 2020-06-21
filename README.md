@@ -49,6 +49,9 @@ Examples:
      - Github markdown format is great for displaying online
      - HTML is great for sending to collaborators
 
+> #### Challenge
+> Use your R markdown file to create a Word document
+
 #### Multiple output formats
  
  - The same `.Rmd` file can be used to generate multiple output formats
@@ -72,11 +75,19 @@ rmarkdown::render("multiformat_doc.Rmd", output_format=c("html_document","word_d
 ```
  - Multiformat R markdown file: [multiformat_doc.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/multiformat_doc.Rmd)
 
+> #### Challenge
+> Alter your R markdown file so that it produces multiple output formats
 
 #### Presentations
 
  - It is also possible to create presentations using R markdown
- - 
+ - Rendered as HTML5 (allows browser-based presentation)
+ - Each heading (#'s) creates a new slide
+
+> #### Challenge
+> - Create a new R markdown document in R Studio, and choose "Presentation" (just use the defailt ioslides format).
+> - Knit the document, and step through the slides
+> - Add some extra slides to the presentation
 
 ### A few other thoughts:
 
