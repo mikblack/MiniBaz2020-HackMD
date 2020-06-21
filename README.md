@@ -1,9 +1,9 @@
-## MiniBaz2020 - HackMD / R Markdown
+# MiniBaz2020 - HackMD / R Markdown
 
 **Monday 22 June 2020 - 2-4pm**<BR>
 **Mik Black, Department of Biochemsitry**
 
-### Overview
+## Overview
 
 This session will focus on the use of Markdown-based document creation.
 
@@ -19,16 +19,16 @@ On GitHub, this file is "rendered" as a formated file.
 If you click on the "Raw" button, you will see that it is just a text file,
 written in Markdown.
 
-### Part One: R Markdown
+## Part One: R Markdown
 
 To learn about using R markdown, we're going to use part of the Software Carpentry 
 *R for Reproducible Scientific Analysis* workshop - "Producing Reports With knitr":
 
 https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html
 
-#### Some other cool things
+### Some other cool things
 
-##### Output formats
+#### Output formats
 
  - The default output for R markdown is HTML (`html_document`) 
  - This can be altered in the header by altering the `output:` setting.  
@@ -49,7 +49,7 @@ Examples:
      - Github markdown format is great for displaying online
      - HTML is great for sending to collaborators
 
-##### Multiple output formats
+#### Multiple output formats
  
  - The same `.Rmd` file can be used to generate multiple output formats
  - Specified in the YAML header:
@@ -73,12 +73,12 @@ rmarkdown::render("multiformat_doc.Rmd", output_format=c("html_document","word_d
  - Multiformat R markdown file: [multiformat_doc.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/multiformat_doc.Rmd)
 
 
-##### Presentations
+#### Presentations
 
  - It is also possible to create presentations using R markdown
  - 
 
-#### A few other thoughts:
+### A few other thoughts:
 
 Benefits of (R) markdown: 
 
@@ -88,7 +88,7 @@ Benefits of (R) markdown:
  - highly portable (e.g., cross-platform)
  - easy for version control (can see exactly which text has changed)
 
-### Part Two: HackMD
+## Part Two: HackMD
 
 While R markdown (or even just straight markdown - you can use "Preview HTML" in RStudio
 to render a Markdown document to HTML - it doesn't have to contain R code) is awesome for
@@ -104,14 +104,14 @@ additional benefits):
 
 https://hackmd.io/pricing#
 
-#### Some important points
+### Some important points
 
  - HackMD provides the ability to edit markdown-based documents collaboratively
  - These documents can be public (open access) or private (restricted access)
  - Edit and access permissions can be different for different people (similar to Google Docs)
  - This is a commercial cloud-based service provider: there will be some things that shouldn't be stored on here (e.g., patient information from clinical studies).
 
-#### Signing up for HackMD
+### Signing up for HackMD
 
 Signin via:
 
