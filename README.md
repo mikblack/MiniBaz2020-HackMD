@@ -50,7 +50,7 @@ Examples:
      - HTML is great for sending to collaborators
 
 > #### Challenge
-> Use your R markdown file to create a Word document
+> - Use your R markdown file to create a Word document
 
 #### Multiple output formats
  
@@ -76,7 +76,7 @@ rmarkdown::render("multiformat_doc.Rmd", output_format=c("html_document","word_d
  - Multiformat R markdown file: [multiformat_doc.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/multiformat_doc.Rmd)
 
 > #### Challenge
-> Alter your R markdown file so that it produces multiple output formats
+> - Alter your R markdown file so that it produces multiple output formats
 
 #### Presentations
 
