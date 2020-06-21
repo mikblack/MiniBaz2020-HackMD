@@ -1,17 +1,19 @@
-Dual formatting for R markdown output
+Multiple formatting for R markdown output
 ================
 Mik Black
 22/06/2020
 
-<!-- Run line below in R to render multiple documents: -->
+<!-- Run line below in R to render multiple documents (all formats): -->
 
 <!-- rmarkdown::render("multiformat_doc.Rmd", output_format="all") -->
 
-<!-- Run line below in R to render multiple documents: -->
+<!-- Run line below in R to render multiple documents (specific formats): -->
 
 <!-- rmarkdown::render("multiformat_doc.Rmd", output_format=c("html_document","word_document")) -->
 
-<!-- rmarkdown::render("multiformat.Rmd", output_format=c("html_document", "github_document")) -->
+<!-- If generating GitHub-formatted markdonw, put it last in the list -->
+
+<!-- rmarkdown::render("multiformat_doc.Rmd", output_format=c("html_document", "github_document")) -->
 
 <!-- NB: Knit just does first one (HTML), which overwrites the md file, and  -->
 
