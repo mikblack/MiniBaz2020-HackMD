@@ -19,4 +19,12 @@ On GitHub, this file is "rendered" as a formated file.
 If you click on the "Raw" button, you will see that it is just a text file,
 written in Markdown.
 
+### R Markdown
+
+To learn about using R markdown, we're going to use part of the Software Carpentry 
+*R for Reproducible Scientific Analysis* workshop - "Producing Reports With knitr":
+
+https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html
+
+
 
