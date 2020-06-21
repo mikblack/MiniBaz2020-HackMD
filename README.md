@@ -62,6 +62,15 @@ output:
   github_document: default
   word_document: default
 ```
+ - To generate all of the specified formats, use the `render` command from the `knitr` package:
+```
+rmarkdown::render("multiformat_doc.Rmd", output_format="all")
+```
+ - You can also just generate a subset of documents (e.g., HTML and Word):
+```
+rmarkdown::render("multiformat_doc.Rmd", output_format=c("html_document","word_document")) 
+```
+ - Multiformat R markdown file: [multiformat_doc.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/multiformat_doc.Rmd)
 
 
 ##### Presentations
@@ -71,7 +80,7 @@ output:
 
 #### A few other thoughts:
 
-Benefits of (R) markdown:
+Benefits of (R) markdown: 
 
  - text-based format (and easy to read)
  - easy to create nicely formatted documents
