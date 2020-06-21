@@ -26,7 +26,50 @@ To learn about using R markdown, we're going to use part of the Software Carpent
 
 https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html
 
-#### A few thoughts:
+#### Some other cool things
+
+##### Output formats
+
+ - The default output for R markdown is HTML (`html_document`) 
+ - This can be altered in the header by altering the `output:` setting.  
+   Other formats include:
+    - `word_document`
+    - `github_document` (docuemnts that renders on the github website)
+    - `pdf_document` (requires LaTeX installed...)
+
+Examples:
+
+ - `github_document`
+    - R markdown file: [github_doc.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_doc.Rmd)
+    - Output (on GitHub): [github_doc.md](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_doc.md)
+ - `html_document` (same as default)
+     - R markdown file: [github_html.Rmd](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_html.Rmd)
+     - Output (on GitHub): [github_html.html](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/github_html.html)
+ - Note the difference in how the output is rendered on GitHub
+     - Github markdown format is great for displaying online
+     - HTML is great for sending to collaborators
+
+##### Multiple output formats
+ 
+ - The same `.Rmd` file can be used to generate multiple output formats
+ - Specified in the YAML header:
+```
+title: "Multiple formatting for R markdown output"
+author: "Mik Black"
+date: "22/06/2020"
+output: 
+  html_document: default
+  github_document: default
+  word_document: default
+```
+
+
+##### Presentations
+
+ - It is also possible to create presentations using R markdown
+ - 
+
+#### A few other thoughts:
 
 Benefits of (R) markdown:
 
@@ -50,10 +93,24 @@ https://hackmd.io/
 It is a commercial platform, but provides a free access tier (a subscription provides
 additional benefits):
 
-![https://hackmd.io/pricing#](Pics/hackmd-price.png)
+https://hackmd.io/pricing#
 
-<center>
-<img src = 'Pics/hackmd-price.png' height="200">
-</center>
+#### Some important points
+
+ - HackMD provides the ability to edit markdown-based documents collaboratively
+ - These documents can be public (open access) or private (restricted access)
+ - Edit and access permissions can be different for different people (similar to Google Docs)
+ - This is a commercial cloud-based service provider: there will be some things that shouldn't be stored on here (e.g., patient information from clinical studies).
+
+#### Signing up for HackMD
+
+Signin via:
+
+ - create account on HackMD
+ - GitHub 
+ - Dropbox 
+ - Facebook
+ - Twitter
+ - Google
 
 
