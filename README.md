@@ -12,7 +12,11 @@ in the context of creating reproducible research documents in R.
 
 But first, let's take a look at a simple document written in markdown:
 
- * [markdownFile.md](markdownFile.md)
+ * [markdownFile.md](https://github.com/mikblack/MiniBaz2020-HackMD/blob/master/markdownFile.md)
 
+On GitHub, this file is "rendered" as a formated file.
+
+If you click on the "Raw" button, you will see that it is just a text file,
+written in Markdown.
 
 
