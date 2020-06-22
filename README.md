@@ -161,6 +161,8 @@ Not a set-by-step guide though.
 
 I'll create a public document, and post the link, and then you can all start editing it. :smile:
 
+https://hackmd.io/P-y2jsxQSIGjCYiytPvKzw?view#My-test-note
+
 PS - emojis work in markdown!  HackMD even has a link to a cheat sheet: :heart_eyes_cat: 
 
 https://github.com/ikatyang/emoji-cheat-sheet
