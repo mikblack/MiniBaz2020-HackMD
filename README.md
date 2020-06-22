@@ -189,6 +189,8 @@ This session has given you a basic overview of how to create markdown-based docu
  - HackMD provides a mechanism for collaborative document editing using markdown.
  
 Once you are comfortable with using R markdown and HackMD, adding version control via GitHub to your workflow is the next logical step in your Reproducible Research learning journey. :metal:
+
+Thanks for your attention, and don't forget to do the survey!  
+
+https://tinyurl.com/minibaz2020-markdown
  
-
-
