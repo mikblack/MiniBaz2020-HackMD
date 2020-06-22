@@ -28,6 +28,17 @@ https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html
 
 :point_up: Got to the link above, and we'll work through the content.
 
+**NOTE:** there is a point in the Carpentries material where the Gapminder data are loaded via:
+
+```{r, eval=FALSE}
+gapminder <- read.csv("gapminder.csv")
+```
+
+To avoid having to download those data, replace the R code above with the following:
+```{r, eval=FALSE}
+gapminder <- read.csv("https://raw.githubusercontent.com/datacarpentry/r-intro-geospatial/master/_episodes_rmd/data/gapminder_data.csv")
+```
+
 Once we're done, we'll come back here and work through the rest of the material on this page.
 
 ### Some other cool things
