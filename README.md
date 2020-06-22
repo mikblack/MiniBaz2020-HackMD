@@ -148,6 +148,29 @@ PS - emojis work in markdown!  HackMD even has a link to a cheat sheet: :heart_e
 
 https://github.com/ikatyang/emoji-cheat-sheet
 
+### Cool things about HackMD
+
+ - it is free!  
+ - all your documents are in the Cloud, and are available from any device (does need internet connectivity)
+ - easy to share documents for collaboration, with different levels of access (public/private, read-only/write)
+ - versioning included - can roll back to previous versions
+ - can link to other cloud-based systems (I think...:thinking:):
+    - Dropbox
+    - Google Drive
+ - can push and pull to/from a GitHub repository
+ - can also create presentations...
+ 
+### Presentations (slide mode)
+
+ - HackMD : https://hackmd.io/slide-example
+    - click the "sharing" icon (top right), and then choose "Preview" (make sure you are in "Slide mode")
+ - Uses standard markdown syntax
+ - Slides are separated with `---`
+ - Can select a slide "template" when creating a new document ("Talk slide")
+ 
+> #### Challenge
+> - Create a simple presentation using the "Talk slide" template when you create a new document
+> - Add some content (e.g., a new slide) and preview the presentation
 
 
 
