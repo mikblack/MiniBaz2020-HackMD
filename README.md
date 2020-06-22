@@ -152,6 +152,7 @@ https://github.com/ikatyang/emoji-cheat-sheet
 
  - it is free!  
  - all your documents are in the Cloud, and are available from any device (does need internet connectivity)
+ - can organise HackMD documents using tags
  - easy to share documents for collaboration, with different levels of access (public/private, read-only/write)
  - versioning included - can roll back to previous versions
  - can link to other cloud-based systems (I think...:thinking:):
@@ -172,6 +173,18 @@ https://github.com/ikatyang/emoji-cheat-sheet
 > - Create a simple presentation using the "Talk slide" template when you create a new document
 > - Add some content (e.g., a new slide) and preview the presentation
 
+## Final thoughts
 
+This session has given you a basic overview of how to create markdown-based documents.
+
+ - If you are using R, then writing most of your code in R markdown is definitely something to strive for.
+    - makes you work reproducible
+    - makes your work more shareable
+    - gives you easy access to your results (don't have to rerun code to see output)
+    - gets you in the habit of properly documenting your code, and annotating your results
+ - HackMD provides a mechanism for collaborative document editing using markdown.
+ 
+Once you are comfortable with using R markdown and HackMD, adding version control via GitHub to your workflow is the next logical step in you Reproducible Research learning journey. :metal:
+ 
 
 
