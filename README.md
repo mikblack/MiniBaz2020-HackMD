@@ -26,6 +26,8 @@ To learn about using R markdown, we're going to use part of the Software Carpent
 
 https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html
 
+:point_up: Got to the link above, and we'll work through the material.
+
 ### Some other cool things
 
 #### Output formats
